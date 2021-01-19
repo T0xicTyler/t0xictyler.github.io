@@ -1,5 +1,8 @@
 body {
-  background-color: black;
-  color: white;
-  font: sans-serif
+  background-color: #15202B;
+}
+
+.purple {
+  background-color: #8c1db9;
+  color: #FFFFFF;
 }
