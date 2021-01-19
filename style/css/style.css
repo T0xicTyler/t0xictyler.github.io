@@ -1,17 +1,26 @@
-/* Error: semicolons aren't allowed in the indented syntax.
- *    ,
- * 14 |   border-radius: 10px;
- *    |                      ^
- *    '
- *   style\sass\style.sass 14:22  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: semicolons aren't allowed in the indented syntax.\a    \2577 \a 14 \2502    border-radius: 10px;\d\a    \2502                       ^\a    \2575 \a   style\\sass\\style.sass 14:22  root stylesheet";
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/Minecraft/1_Minecraft-Regular.otf") format("opentype");
 }
+.dark-mode {
+  background-color: #222222;
+  color: white;
+}
+
+.twitch-purple {
+  background-color: #6441a5;
+}
+
+.jumbotron-dark {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+kbd .minecraft {
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
