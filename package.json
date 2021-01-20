@@ -1,0 +1,32 @@
+{
+  "name": "grisstyl.github.io",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grisstyl/grisstyl.github.io.git"
+  },
+  "author": "T0xicTyler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grisstyl/grisstyl.github.io/issues"
+  },
+  "homepage": "https://github.com/grisstyl/grisstyl.github.io#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

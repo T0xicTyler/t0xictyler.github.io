@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
+body {
+  background-color: black;
+  color: white; }
+
+a {
+  color: #6441a5;
+  text-decoration: none; }
+
+a:hover {
+  color: white;
+  text-decoration: underline; }
+
+.accent-text {
+  color: #6441a5; }
+
+.btn-link {
+  color: #6441a5;
+  text-decoration: none; }
+
+.bg-black {
+  background-color: black;
+  color: white; }
+
+.bg-dark {
+  background-color: #222222;
+  color: white; }

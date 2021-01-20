@@ -4,36 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>T0xicTyler's Website</title>
+  <title>T0xicTyler</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <link rel="stylesheet" href="style/css/style.css"/>
+  <link rel="stylesheet" href="dist/stylesheets/style.css"/>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="dist/scripts/index.js"></script>
 </head>
-<body class="dark-mode">
+<body>
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-lg-9">
+        <div class="col-sm-12 col-lg-8">
           <h1 class="display-4">T0xicTyler</h1>
           <p class="lead">Hi! My name is Tyler and I'm a nineteen year old computer programmer from the United States.</p>
           <p class="lead">My background primarily comes from Minecraft developing Spigot plugins with the Java programming language. From there I've learned an assortment of skills in the computer science field.</p>
           <hr>
           <h3>GitHub</h3>
-          <p class="lead">My current project is <a href="https://github/PotterPlus/PotterPlus">PotterPlus</a>, a configuration for NathanWolf's Magic plugin.</p>
-          <p class="lead">You can join PotterPlus on Minecraft 1.16.4 with:</p>
-          <kdb class="minecraft">potterplus.mc.gg</kdb>
-        </div>
-        <div class="col-sm-12 col-lg-3">
-          <div class="row">
-            <img src="img/me.jpg" alt="Picture of Toxic Tyler" class="img-thumbnail" style="width:40%;height:auto;">
+          <p class="lead">My current project is <a href="https://github/PotterPlus/PotterPlus" target="_blank">PotterPlus</a>, a configuration for NathanWolf's Magic plugin.</p>
+          <p class="lead">You can join the PotterPlus server on Minecraft 1.16.4 with the following IP address (click to copy):</p>
+          <div id="mc-ip" class="jumbotron bg-dark px-2 py-3 col-lg-6">
+            <kdb>
+              <span id="mc-ip-text" style="font-family:'Space Mono',monospace;">potterplus.mc.gg</span>
+              <span id="mc-ip-copy-text">Click to copy</span>
+            </kdb>
           </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-sm-12 col-lg-3 bg-dark">
+          <!-- <div class="row m-2">
+            <img src="img/me.jpg" alt="Picture of Toxic Tyler" class="bg-dark" style="width:40%;height:auto;">
+          </div> -->
 
-          <div class="row">
-            <a href="https://twitter.com/t0xictyler" class="btn btn-primary pb-2" target="_blank"><i class="bi-twitter"></i> Twitter</a>
-            <a href="https://twitch.com/t0xictyler" class="btn btn-primary twitch-purple pb-2" target="_blank"><i class="bi-twitch"></i> Twitch</a>
-            <a href="https://github.com/grisstyl" class="btn btn-light" target="_blank"><i class="bi-github"></i> GitHub</a>
+          <div class="row col-lg-6 m-2">
+            <h4>Personal links</h4>
+            <a href="https://twitter.com/t0xictyler" class="btn btn-outline-light mb-2 code-font" target="_blank"><i class="bi-twitter"></i> Twitter</a>
+            <a href="https://twitch.com/t0xictyler" class="btn btn-outline-light mb-2 code-font" target="_blank"><i class="bi-twitch"></i> Twitch</a>
+            <a href="https://github.com/grisstyl" class="btn btn-outline-light mb-2 code-font" target="_blank"><i class="bi-github"></i> GitHub</a>
           </div>
         </div>
       </div>
@@ -43,7 +53,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-lg-9"></div>
-      <div class="col-sm-12 col-lg-3">
+      <div class="col-sm-12 col-lg-3 bg-dark">
         <div class="jumbotron jumbotron-dark">
           <a class="twitter-timeline" data-width="300" data-height="800" data-theme="dark" href="https://twitter.com/t0xictyler?ref_src=twsrc%5Etfw">Tweets by t0xictyler</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
